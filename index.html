@@ -1,201 +1,74 @@
-<!DOCTYPE HTML>
-
-<html>
+<html lang='en'>
 
 <head>
-	<title>Calmo VR</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<title>Calmo</title>
+	<meta description="calmovr" />
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
-<body class="landing">
-	<div id="page-wrapper">
+<header class="navbar">
+	<nav class="navbar__nav" role="navigation">
+		<ul class="navbar__list" id="navbar">
+			<li class="navbar__title">
+				<a href="#home">Home</a>
+			</li>
+			<li class="navbar__title">
+				<a href="#how">How it works</a>
+			</li>
+			<li class="navbar__title">
+				<a class="navbar__link" href="#contact">Sign up for a Trial</a>
+			</li>
+			<!-- <a href="javascript:void(0);" display="none" class="icon" onclick="myFunction()">&#9776;</a>  Uncomment to enable hamburger menu -->
+		</ul>
+	</nav>
 
-		<!-- Header -->
-		<header id="header" class="alt">
-
-			<h1>
-				<a href="index.html">Calmo</a> VR</h1>
-			<nav id="nav">
-				<ul>
-					<li>
-						<a href="index.html">Download</a>
-					</li>
-
-					<li>
-						<a href="index.html">The Team</a>
-					</li>
-					<li>
-						<a href="index.html">Partners</a>
-					</li>
-					<li>
-						<a href="#" class="button">Contact</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-
-		<!-- Banner -->
-		<section id="banner">
-			<img src='images/Calmo_logo.png' alt='logo' width="400px">
+	<body>
+		<section class="main" id="home">
+			<h1 class="main__heading"></h1>
+			<img class="logo" src="images/calmo_logo.jpg" alt="calmo logo" height="220" width="220">
+			<p class="main__sub">A virtual reality app for procedural distraction</p>
 		</section>
 
-		<!-- Main -->
-		<section id="main" class="container">
-
-			<section class="box special">
-				<header class="major">
-					<h2>A novel VR distraction method
-						<br /> for patients undergoing minor procedures</h2>
-					<p>ABOUT: Calmo VR uses a box breathing technique in an immersive VR
-						<br /> environment to calm patients and alleviate stress and panic.
-						<br /> environment to calm patients and alleviate stress and panic.
-						<br /> environment to calm patients and alleviate stress and panic. </p>
-
-				</header>
-			</section>
-
-
-
-			<section class="box special features">
-				<div class="features-row">
-					<section>
-						<span class="icon major fa-code accent2"></span>
-						<h3>Download</h3>
-						<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis
-							accumsan dolore magna aliquam veroeros.</p>
-					</section>
-					<section>
-						<span class="icon major fa-bolt accent3"></span>
-						<h3>Contact</h3>
-						<p>Email and Twitter link Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum
-							phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
-					</section>
-				</div>
-				<div class="features-row">
-					<section>
-						<span class="icon major fa-angle-right accent4"></span>
-						<h3>The Team</h3>
-						<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis
-							accumsan dolore magna aliquam veroeros.</p>
-					</section>
-					<section>
-						<span class="icon major fa-user accent5"></span>
-						<h3>Partners</h3>
-						<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis
-							accumsan dolore magna aliquam veroeros.</p>
-					</section>
-				</div>
-			</section>
-
-			<div class="row">
-				<div class="6u 12u(narrower)">
-
-					<section class="box special">
-						<span class="image featured">
-							<img src="images/pic02.jpg" alt="" />
-						</span>
-						<h3>About Box Breathing</h3>
-						<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis
-							accumsan dolore magna aliquam veroeros.</p>
-						<!--https://www.healthline.com/health/box-breathing-->
-						<ul class="actions">
-							<li>
-								<a href="#" class="button alt">Learn More</a>
-							</li>
-						</ul>
-					</section>
-
-				</div>
-				<div class="6u 12u(narrower)">
-
-					<section class="box special">
-						<span class="image featured">
-							<img src="images/pic03.jpg" alt="" />
-						</span>
-						<h3>Visit our GitHub</h3>
-						<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis
-							accumsan dolore magna aliquam veroeros.</p>
-						<ul class="actions">
-							<li>
-								<a href="#" class="button alt">Learn More</a>
-							</li>
-						</ul>
-					</section>
-
-				</div>
+		<section class="how" id="how">
+			<p class="how__heading">How It Works</p>
+			<div class="how__vr" id="how__vr">
+				<h2 class="how__vr__heading">Virtual Reality</h2>
+				<p>VR distraction can help to reduce anxiety and pain duriing otherwise stressful procedures.</p>
 			</div>
+			<div class="how__box_breathing" id="how__box_breathing">
+				<h2 class="how__box_breathing__heading">Box Breathing</h2>
+				<p>Calmo uses box breathing techniques to enable a calmer patient experience.</p>
+			</div>
+			<div class="how__support" id="how__support">
+				<h2 class="how__support__heading">Get Involved</h2>
+				<p>We are currently trialling the app in a number of NHS Trusts. Please <a href="#contact">get in touch </a>if
+					you'd like to run a trial.</p>
+			</div>
+			</div>
+		</section>
 
-
-
-
-
-			<section class="box special">
-				<header class="major">
-					<h2>News and Updates
-						<br /> for patients undergoing minor procedures</h2>
-					<p>ABOUT: Calmo VR uses a box breathing technique in an immersive VR
-						<br /> environment to calm patients and alleviate stress and panic.
-						<br /> environment to calm patients and alleviate stress and panic.
-						<br /> environment to calm patients and alleviate stress and panic. </p>
-
-				</header>
-			</section>
+		<section class="contact">
+			<h2 class="contact__heading">Get in Touch</h2>
+			<p class="contact__text">Things are going well and we have started trialling Calmo. If you have any questions
+				or would like to trial the app, you can get in touch via:</p>
+			<p class="contact__icons"> <a href="mailto:calmovr@gmail.com"><i id="font-email" class="fas fa-envelope-square"></i></a>
+				<a href="https://twitter.com/CalmoVR"><i id="font-twitter" class="fab fa-twitter-square"></i></a>
+			</p>
 
 		</section>
 
-		<!-- Footer -->
-		<footer id="footer">
-			<ul class="icons">
-				<li>
-					<a href="#" class="icon fa-twitter">
-						<span class="label">Twitter</span>
-					</a>
-				</li>
-				<li>
-					<a href="#" class="icon fa-facebook">
-						<span class="label">Facebook</span>
-					</a>
-				</li>
-				<li>
-					<a href="#" class="icon fa-instagram">
-						<span class="label">Instagram</span>
-					</a>
-				</li>
-				<li>
-					<a href="#" class="icon fa-github">
-						<span class="label">Github</span>
-					</a>
-				</li>
-				<li>
-					<a href="#" class="icon fa-dribbble">
-						<span class="label">Dribbble</span>
-					</a>
-				</li>
-				<li>
-					<a href="#" class="icon fa-google-plus">
-						<span class="label">Google+</span>
-					</a>
-				</li>
-			</ul>
-			<ul class="copyright">
-				<li>&copy; Calmo VR. All rights reserved.</li>
-			</ul>
-		</footer>
 
-	</div>
+	</body>
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.dropotron.min.js"></script>
-	<script src="assets/js/jquery.scrollgress.min.js"></script>
-	<script src="assets/js/skel.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="assets/js/main.js"></script>
+	<footer class="footer">
+		© CalmoVR 2018
+	</footer>
 
-</body>
+	<script type="text/javascript" src="index.js"></script>
 
 </html>

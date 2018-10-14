@@ -1,0 +1,244 @@
+/* general */
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    display: flex;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 1px;
+    background-position: bottom;
+    overflow: auto;
+  }
+  
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    background-image: url("images/wall_vr.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    line-height: 4rem;
+    text-shadow: 0.1rem 0.1rem black;
+  }
+
+  .main__heading{
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    margin-top: 12rem;
+  }
+
+  .logo{
+    margin-bottom: 2rem;
+  }
+  
+  .main__sub{
+  min-width: 100vw;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12rem;
+  }
+  
+  .how{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-width: 30vw;
+    min-height: 30vh;
+    color: #1F487E;
+  
+  }
+  
+  
+  .how__heading{
+  display: flex; 
+  min-width: 100vw;
+  font-size: 2.5rem;
+  justify-content: center;
+  margin-top: 3.5rem;
+  margin-bottom: 0.5rem;
+  }
+  
+  .how__box_breathing{
+    max-width: 20vw;
+    margin-bottom: 8rem;
+    font-size: 1.2rem;
+  }
+  
+  .how__support{
+    max-width: 20vw;
+    margin-bottom: 8rem;
+    font-size: 1.2rem;
+  }
+  
+  .how__vr{
+    max-width: 20vw;
+    margin-bottom: 8.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .how__support__heading{
+    display: flex;
+    justify-content: center;
+    line-height: 5rem;
+    font-size: 1.5rem;
+  }
+  
+  .how__vr__heading{
+    display: flex;
+    justify-content: center;
+    line-height: 5rem;
+    font-size: 1.5rem;
+  }
+  
+  .how__box_breathing__heading{
+    display: flex;
+    justify-content: center;
+    line-height: 5rem;
+    font-size: 1.5rem;
+  }
+  
+  .contact{
+    background-image: url("images/girl_vr.jpg");
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100vw;
+    min-height: 35vh;
+    color: white;
+    text-shadow: 0.1rem 0.1rem black;
+    font-size: 1.3rem;
+    padding: 15rem;
+    justify-content: space-around;
+    padding-top: 10rem;
+    letter-spacing: 1.5px;
+  }
+  
+  .contact__heading{
+    line-height: 6rem;
+    font-size: 2.5rem;
+  }
+  
+  .contact__text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 80vw;
+  }
+  
+  /* footer */
+  .footer{
+    display: flex;
+    justify-content: space-around;
+    min-height: 5vh;
+    min-width: 100vw;
+    font-size: 1rem;
+    line-height: 3.5rem;
+    padding: 3.5rem;
+  }
+  
+  /* navbar */
+  .navbar {
+    color: #1F487E;
+  }
+  .navbar__nav{
+    position: fixed;
+    width: 100%;
+    background-color:  white;
+    opacity: 0.8;
+  }
+  
+  .active {
+    background-color: #1F487E;
+    color: aliceblue;
+  }
+  
+  .navbar__list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    letter-spacing: 0.1rem;
+    padding-top: 1.5rem;
+  }
+  
+  .navbar__title {
+    display: flex;
+    font-size: 1em;
+    float: right;
+    margin-right: 1.5rem;
+  }
+  
+  .navbar__title a {
+    margin-left: 0.5em;
+    color: #1F487E;
+  }
+  
+  nav ul li:first-child {
+    margin-right: auto;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  a:link {
+    color: #1F487E;
+    text-decoration: none;
+    }
+    
+    a:hover{
+      text-decoration: underline;
+    }  
+  
+   .icon {
+      display: none;
+  }
+
+  .contact__icons{
+    display: flex;
+    justify-content: space-between;
+  }
+
+#font-email{
+  font-size: 2.5rem;
+  color: white;
+  margin: 0.5rem;
+  margin-top: 1rem;
+}
+
+#font-email:hover{
+  color: gray;
+}
+
+#font-twitter{
+  font-size: 2.5rem;
+  color: white;
+  margin: 0.5rem;
+  margin-top: 1rem;
+}
+
+#font-twitter:hover{
+  color: gray;
+}
+  
